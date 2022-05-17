@@ -1,0 +1,89 @@
+body{
+    color: black;
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px;
+    align-items: center;
+}
+.eu{
+    width: 20%;
+    box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0, 25);
+}
+.negocio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.gusta{
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: 0092E4;
+    padding: 24px;
+    color: #0092E4;
+}
+.menu{
+    display: flex;
+    gap: 38px;
+    font-family: "poppins", sans-serif;
+    font-size: 18px;
+}
+.conteudo{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 32px;
+    gap: 32px;
+}
+.texto{
+    color: #0092E4;
+}
+.sobre{
+    width: 400px;
+    height: 430px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    padding: 18px;    
+    background: rgba( 217, 232, 232, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 10px;
+}
+.projetos{
+    width: 400px;
+    height: 430px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    padding: 18px; 
+    background: rgba( 217, 232, 232, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 10px;
+}
+.trabalhos{
+    width: 400px;
+    height: 430px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    padding: 18px; 
+    background: rgba( 217, 232, 232, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 10px;
+}
+.rodape{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    padding: 32px;
+    align-items: center;
+}
