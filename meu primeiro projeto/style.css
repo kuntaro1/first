@@ -19,7 +19,7 @@ body{
 }
 .gusta{
     font-family: 'poppins', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
     color: 0092E4;
     padding: 24px;
@@ -30,6 +30,7 @@ body{
     gap: 38px;
     font-family: "poppins", sans-serif;
     font-size: 18px;
+    padding: 32px;
 }
 .conteudo{
     display: flex;
@@ -81,9 +82,39 @@ body{
     border-radius: 10px;
 }
 .rodape{
+    background-color: rgb(236, 236, 236);
     display: flex;
-    flex-direction: row-reverse;
-    gap: 32px;
+    flex-direction: row;
+    gap: 10px;
     padding: 32px;
-    align-items: center;
+}
+.logo-git{
+    width: 24px;
+}
+.logo-linke{
+    width: 24px;
+}
+.logo-face{
+    width: 24px;
+}
+.ferramenta{
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+}
+.textola{
+    font-family: 'poppins', sans-serif;
+    font-size: 12px;
+}
+.logo-vs{
+    width: 2%;
+    box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0, 25);
+}
+.logo-ht{
+    width: 2%;
+    box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0, 25);
+}
+.logo-cs{
+    width: 2%;
+    box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0, 25);
 }
